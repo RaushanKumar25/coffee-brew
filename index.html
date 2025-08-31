@@ -1,250 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee-Website</title>
 
     <!-- Correct Font Awesome CDN -->
-    <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
 
-</head>
-<body>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
     <header class="header">
-        <!-- Logo -->
-        <a href="#" class="logo">
-            <img src="logo image1.png" alt="Coffee Shop Logo">
-        </a>
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <img src="logo image1.png" alt="Coffee Shop Logo" />
+      </a>
 
-        <!-- Navigation -->
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Menu</a>
-            <a href="#">Products</a>
-            <a href="#">Review</a>
-            <a href="#">Contact</a>
-            <a href="#">Blogs</a>
-        </nav>
+      <!-- Navigation -->
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+      </nav>
 
-        <!-- Icons -->
-        <div class="icons">
-            <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
-            <i class="fa-solid fa-cart-shopping" id="cart-btn"></i>
-            <i class="fa-solid fa-bars" id="menu-btn"></i>
-        </div>
+      <!-- Icons -->
+      <div class="icons">
+        <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+        <i class="fa-solid fa-cart-shopping" id="cart-btn"></i>
+        <i class="fa-solid fa-bars" id="menu-btn"></i>
+      </div>
 
-        <!-- Search Form -->
-        <div class="search-form">
-            <input type="search" id="search-box" placeholder="Search here...">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
+      <!-- Search Form -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search here..." />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
     </header>
 
     <section class="home animated-section" id="home">
-        <div class="content">
-            <h3>Fresh Coffee In The Morning</h3>
-            <p>Start your day with the perfect cup! Freshly brewed, rich in flavor, and crafted to awaken your senses—Coffee Brew is where every sip feels like home.</p>
-            <a href="" class="btn">Get Yours Now</a>
-        </div>
+      <div class="content">
+        <h3>Fresh Coffee In The Morning</h3>
+        <p>
+          Start your day with the perfect cup! Freshly brewed, rich in flavor,
+          and crafted to awaken your senses—Coffee Brew is where every sip feels
+          like home.
+        </p>
+        <a href="" class="btn">Get Yours Now</a>
+      </div>
     </section>
 
     <section class="about animated-section" id="about">
-        <h1 class="heading"><span>About</span> Us</h1>
-        <div class="row">
-            <div class="image">
-                <img src="img2.jpg" alt="About Us">
-            </div>
-            <div class="content">
-                <h3>What makes our coffee best</h3>
-                <p>Our coffee is crafted from the finest hand-picked beans, roasted to perfection for a rich aroma and bold flavor. Every cup is a blend of passion and quality, designed to awaken your senses and brighten your day!</p>
-                <p>Experience the perfect harmony of flavor and aroma, making every sip truly unforgettable and comforting!</p>
-                <a href="" class="btn">Learn More</a>
-            </div>
+      <h1 class="heading"><span>About</span> Us</h1>
+      <div class="row">
+        <div class="image">
+          <img src="img2.jpg" alt="About Us" />
         </div>
+        <div class="content">
+          <h3>What makes our coffee best</h3>
+          <p>
+            Our coffee is crafted from the finest hand-picked beans, roasted to
+            perfection for a rich aroma and bold flavor. Every cup is a blend of
+            passion and quality, designed to awaken your senses and brighten
+            your day!
+          </p>
+          <p>
+            Experience the perfect harmony of flavor and aroma, making every sip
+            truly unforgettable and comforting!
+          </p>
+          <a href="" class="btn">Learn More</a>
+        </div>
+      </div>
     </section>
 
     <section class="menu animated-section" id="menu">
-        <h1 class="heading">Our <span>menu</span></h1>
-        <div class="box-container">
-
-           <div class="box">
-           <img src="menu img3.jpg" alt="menu_img">
-           <h3>Tasty and Healthy</h3> 
-           <div class="price">$15.99 <span>20.99</span></div>  
-           <a href="" class="btn">Add to cart</a>  
-           </div>
-
-           <div class="box">
-           <img src="menu img4.jpg" alt="menu_img">
-           <h3>Tasty and Healthy</h3> 
-           <div class="price">$15.99 <span>20.99</span></div>  
-           <a href="" class="btn">Add to cart</a>  
-           </div>
-
-           <div class="box">
-           <img src="menu img5.jpg" alt="menu_img">
-           <h3>Tasty and Healthy</h3> 
-           <div class="price">$15.99 <span>20.99</span></div>  
-           <a href="" class="btn">Add to cart</a>  
-           </div>
-
-           <div class="box">
-           <img src="menu img6.jpg" alt="menu_img">
-           <h3>Tasty and Healthy</h3> 
-           <div class="price">$15.99 <span>20.99</span></div>  
-           <a href="" class="btn">Add to cart</a>  
-           </div>
-
-           <div class="box">
-           <img src="menu img7.jpg" alt="menu_img">
-           <h3>Tasty and Healthy</h3> 
-           <div class="price">$15.99 <span>20.99</span></div>  
-           <a href="" class="btn">Add to cart</a>  
-           </div>
-
+      <h1 class="heading">Our <span>menu</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="menu img3.jpg" alt="menu_img" />
+          <h3>Tasty and Healthy</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="" class="btn">Add to cart</a>
         </div>
+
+        <div class="box">
+          <img src="menu img4.jpg" alt="menu_img" />
+          <h3>Tasty and Healthy</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="menu img5.jpg" alt="menu_img" />
+          <h3>Tasty and Healthy</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="menu img6.jpg" alt="menu_img" />
+          <h3>Tasty and Healthy</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="menu img7.jpg" alt="menu_img" />
+          <h3>Tasty and Healthy</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="" class="btn">Add to cart</a>
+        </div>
+      </div>
     </section>
 
     <section class="products animated-section" id="products">
-        <h1 class="heading">Our <span>products</span></h1>
-        <div class="box-container">
-
-            <div class="box">
-                <div class="icons">
-                    <a href="" class="fas fa-shopping-cart"></a>
-                    <a href="" class="fas fa-heart"></a>
-                    <a href="" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="coffepacket 3.jpg" alt="Cofee packet">
-                </div>
-                <div class="content">
-                   <h3>Fresh Coffee</h3> 
-                   <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                   </div>
-                   <div class="price">$15.99 <span>$20.99</span></div>
-                </div>
+      <h1 class="heading">Our <span>products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="" class="fas fa-shopping-cart"></a>
+            <a href="" class="fas fa-heart"></a>
+            <a href="" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="coffepacket 3.jpg" alt="Cofee packet" />
+          </div>
+          <div class="content">
+            <h3>Fresh Coffee</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
             </div>
-
-            <div class="box">
-                <div class="icons">
-                    <a href="" class="fas fa-shopping-cart"></a>
-                    <a href="" class="fas fa-heart"></a>
-                    <a href="" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="coffepacket 1.jpg" alt="Cofee packet">
-                </div>
-                <div class="content">
-                   <h3>Fresh Coffee</h3> 
-                   <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                   </div>
-                   <div class="price">$15.99 <span>$20.99</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="icons">
-                    <a href="" class="fas fa-shopping-cart"></a>
-                    <a href="" class="fas fa-heart"></a>
-                    <a href="" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="coffepacket 2.jpg" alt="Cofee packet">
-                </div>
-                <div class="content">
-                   <h3>Fresh Coffee</h3> 
-                   <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                   </div>
-                   <div class="price">$15.99 <span>$20.99</span></div>
-                </div>
-            </div>
+            <div class="price">$15.99 <span>$20.99</span></div>
+          </div>
         </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="" class="fas fa-shopping-cart"></a>
+            <a href="" class="fas fa-heart"></a>
+            <a href="" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="coffepacket 1.jpg" alt="Cofee packet" />
+          </div>
+          <div class="content">
+            <h3>Fresh Coffee</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.99 <span>$20.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="" class="fas fa-shopping-cart"></a>
+            <a href="" class="fas fa-heart"></a>
+            <a href="" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="coffepacket 2.jpg" alt="Cofee packet" />
+          </div>
+          <div class="content">
+            <h3>Fresh Coffee</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.99 <span>$20.99</span></div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="review animated-section" id="review">
-        <h1 class="heading">Customer's <span>Review</span></h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="quote img.png" alt="" class="quote">
-                <p>I absolutely love Coffee Brew! Every visit is a treat—the aroma of freshly roasted beans, the rich and smooth flavor of each cup, and the friendly atmosphere make it my go-to coffee spot. Whether I’m starting my morning or taking a relaxing break, their coffee never fails to brighten my day and lift my spirits. Truly a perfect experience for every coffee lover!</p>
-                <img src="customer 1.jpeg" alt="customer-review" class="nurik">
-                <h3>Alice Johnson</h3>
-                 <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                   </div>
-            </div>
-
-            <div class="box">
-                <img src="quote img.png" alt="" class="quote">
-                <p>Coffee Brew has completely changed the way I enjoy coffee. The attention to detail in every cup is remarkable—the flavor is bold yet smooth, and the freshness is unmatched. It’s more than just coffee, it’s an experience that leaves you wanting to come back every single day!</p>
-                <img src="customer 4.jpeg" alt="customer-review" class="nurik">
-                <h3> Bob Smith</h3>
-                 <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                   </div>
-            </div>
-
-            <div class="box">
-                <img src="quote img.png" alt="" class="quote">
-                <p>I’ve tried many coffee shops, but nothing compares to Coffee Brew. Their blends are perfectly balanced, the service is warm and welcoming, and the atmosphere makes it the perfect place to relax or catch up with friends. It feels like a second home for me.</p>
-                <img src="customer 6.jpeg" alt="customer-review" class="nurik">
-                <h3>Charlie Brown</h3>
-                 <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                   </div>
-            </div>
-
-            <div class="box">
-                <img src="quote img.png" alt="" class="quote">
-                <p>The first sip had me hooked! Coffee Brew’s dedication to quality and passion for great coffee is clear in every cup. The taste is consistent, the presentation is beautiful, and I always leave with a smile. Definitely the best coffee spot in town!</p>
-                <img src="customer 3.jpg" alt="customer-review" class="nurik">
-                <h3> Diana Prince </h3>
-                 <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                   </div>
-            </div>
+      <h1 class="heading">Customer's <span>Review</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="quote img.png" alt="" class="quote" />
+          <p>
+            I absolutely love Coffee Brew! Every visit is a treat—the aroma of
+            freshly roasted beans, the rich and smooth flavor of each cup, and
+            the friendly atmosphere make it my go-to coffee spot. Whether I’m
+            starting my morning or taking a relaxing break, their coffee never
+            fails to brighten my day and lift my spirits. Truly a perfect
+            experience for every coffee lover!
+          </p>
+          <img src="customer 1.jpeg" alt="customer-review" class="nurik" />
+          <h3>Alice Johnson</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
         </div>
+
+        <div class="box">
+          <img src="quote img.png" alt="" class="quote" />
+          <p>
+            Coffee Brew has completely changed the way I enjoy coffee. The
+            attention to detail in every cup is remarkable—the flavor is bold
+            yet smooth, and the freshness is unmatched. It’s more than just
+            coffee, it’s an experience that leaves you wanting to come back
+            every single day!
+          </p>
+          <img src="customer 4.jpeg" alt="customer-review" class="nurik" />
+          <h3>Bob Smith</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="quote img.png" alt="" class="quote" />
+          <p>
+            I’ve tried many coffee shops, but nothing compares to Coffee Brew.
+            Their blends are perfectly balanced, the service is warm and
+            welcoming, and the atmosphere makes it the perfect place to relax or
+            catch up with friends. It feels like a second home for me.
+          </p>
+          <img src="customer 6.jpeg" alt="customer-review" class="nurik" />
+          <h3>Charlie Brown</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="quote img.png" alt="" class="quote" />
+          <p>
+            The first sip had me hooked! Coffee Brew’s dedication to quality and
+            passion for great coffee is clear in every cup. The taste is
+            consistent, the presentation is beautiful, and I always leave with a
+            smile. Definitely the best coffee spot in town!
+          </p>
+          <img src="customer 3.jpg" alt="customer-review" class="nurik" />
+          <h3>Diana Prince</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <section class="Contact animated-section" id="contact">
+      <h1 class="heading"><span>Contact</span> Us</h1>
+      <div class="row">
+        <form action="">
+          <h3>Get in Touch</h3>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name" />
+          </div>
 
-    
-</body>
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email" />
+          </div>
+
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="number" />
+          </div>
+          <input type="submit" value="Contact now" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <section class="blogs animated-section" id="blogs">
+      <h1 class="heading">Our <span>blogs</span></h1>
+
+      <div class="container">
+        <div class="box">
+          <div class="image">
+            <img src="blog img 1.jpg" alt="blog image" />
+          </div>
+          <div class="content">
+            <a href="" class="title">Tasty and Refreshing Coffee</a>
+            <span>By Raushan Bhardwaj / 31st August, 2025</span>
+            <p>
+              Discover the secret behind our signature brews, made to energize
+              your mornings with pure delight.
+            </p>
+            <a href="" class="btn">Read More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="blog img 2.jpg" alt="blog image" />
+          </div>
+          <div class="content">
+            <a href="" class="title">Tasty and Refreshing Coffee</a>
+            <span>By Ananya Sharma / 2nd September, 2025</span>
+            <p>
+              Discover the secret behind our signature brews, made to energize
+              your mornings with pure delight.
+            </p>
+            <a href="" class="btn">Read More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="blog img 3.jpg" alt="blog image" />
+          </div>
+          <div class="content">
+            <a href="" class="title">Tasty and Refreshing Coffee</a>
+            <span>By Arjun Mehta / 5th September, 2025</span>
+            <p>
+              Follow the journey of our coffee beans from lush farms to your
+              cup, full of aroma and taste.
+            </p>
+            <a href="" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="share">
+        <a href="" class="fab fa-facebook-f"></a>
+        <a href="" class="fab fa-instagram"></a>
+        <a href="" class="fab fa-twitter"></a>
+        <a href="" class="fab fa-linkedin"></a>
+        <a href="" class="fab fa-github"></a>
+      </div>
+
+      <div class="links">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Menu">Menu</a>
+        <a href="#Product">Products</a>
+        <a href="#Review">Review</a>
+        <a href="#Contact">Contact</a>
+        <a href="#Blogs">Blogs</a>
+      </div>
+
+      <div class="credit">Created by <span>Raushan Kumar</span>/ all rights reserved</div>
+    </footer>
+  </body>
 </html>
