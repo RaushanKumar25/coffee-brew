@@ -83,12 +83,28 @@ section {
   font-size: 20px;
 }
 .header .navbar a {
-    margin: 0 1.5rem;
-    font-size: 5rem;   /* bigger font */
+    margin: 0 4rem;
+    font-size: 7rem;   /* bigger font */
     font-weight: 500;    /* medium weight */
     color: #fff;
-    letter-spacing: 0.5px;
+    letter-spacing: 1.9px;
 }
+.heading {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 3.5rem;
+  font-size: 15rem;   /* increase this to make headings bigger */
+  
+  font-weight: 700;  /* makes them bold */
+  letter-spacing: 2px; /* adds spacing for effect */
+}
+
+.heading span {
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
 
 .header .navbar a:hover {
     color: var(--main-color);
@@ -144,10 +160,13 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    position: relative;
     background: url(coffee\ 7.jpg) no-repeat;
     background-position: center;
     background-size: cover;
+    overflow: hidden;
 }
+
 .home .content {
     max-width: 6rem;
 }
@@ -163,11 +182,14 @@ section {
     text-transform: uppercase;
     color: #fff;
     line-height: 1.2;
+    margin-top: 10rem; 
+    padding-top: 15rem;
+
 }
 
 .home .content p {
     font-size: 5rem;     /* readable paragraph */
-    font-weight: 300;
+    font-weight: 600;
     color: #ddd;         /* softer than pure white */
     line-height: 1.8;
     margin-top: 1.5rem;
@@ -179,7 +201,7 @@ section {
     margin-top: 3rem;        /* more spacing above */
     display: inline-block;
     padding: 4.9rem 20rem;      /* bigger padding for width/height */
-    font-size: 3rem;           /* increase font size */
+    font-size: 4rem;           /* increase font size */
     color: black;
     background: var(--main-color);
     font-weight: 900;          /* bolder text */
@@ -194,3 +216,32 @@ section {
     transform: scale(1.05);    /* makes button pop on hover */
 }
 
+
+.about .row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+.about .row .image {
+    flex: 1 1 45rem;
+    width: 100%;
+}
+.about .row .image img {
+    width: 100%;
+}
+.about .row .content {
+    flex: 1 1 45rem;
+    padding: 5rem;
+}
+.about .row .content h3 {
+    font-size: 11rem;
+    color: #fff;
+}
+.about .row .content p{
+    color: #ccc;
+    padding: 6rem 0;
+    line-height: 1.6;
+    font-size: 6rem;
+    font-weight: 300;
+}
