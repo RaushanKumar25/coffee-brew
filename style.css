@@ -83,14 +83,17 @@ section {
   font-size: 20px;
 }
 .header .navbar a {
-    margin: 0 1rem;
-    font-size: 4.2rem;  /* increase size here */
+    margin: 0 1.5rem;
+    font-size: 5rem;   /* bigger font */
+    font-weight: 500;    /* medium weight */
     color: #fff;
+    letter-spacing: 0.5px;
 }
-.header .navbar a:hover{
+
+.header .navbar a:hover {
     color: var(--main-color);
-    border-bottom: 0.1rem solid var(--main-color);
-    padding-bottom: 0.5rem;
+    border-bottom: 0.2rem solid var(--main-color);
+    padding-bottom: 0.3rem;
 }
 .header .icons i {
     color:#fff;
@@ -136,3 +139,58 @@ section {
 .header .search-form label:hover {
     color: var(--main-color);
 }
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(coffee\ 7.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.home .content {
+    max-width: 6rem;
+}
+/* Hero Section */
+.home .content {
+    max-width: 70rem;   /* wide but not too wide */
+    padding: 2rem;
+}
+
+.home .content h3 {
+    font-size: 20rem;     /* big heading */
+    font-weight: 700;    /* bold */
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.home .content p {
+    font-size: 5rem;     /* readable paragraph */
+    font-weight: 300;
+    color: #ddd;         /* softer than pure white */
+    line-height: 1.8;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem 0;
+}
+
+/* Button */
+.btn {
+    margin-top: 3rem;        /* more spacing above */
+    display: inline-block;
+    padding: 4.9rem 20rem;      /* bigger padding for width/height */
+    font-size: 3rem;           /* increase font size */
+    color: black;
+    background: var(--main-color);
+    font-weight: 900;          /* bolder text */
+    border-radius: 8px;        /* smoother corners */
+    cursor: pointer;
+    transition: all 0.3s ease; /* smooth hover effect */
+}
+
+.btn:hover {
+    background: #b8926b;
+    letter-spacing: 1px;       /* slightly more letter spacing */
+    transform: scale(1.05);    /* makes button pop on hover */
+}
+
