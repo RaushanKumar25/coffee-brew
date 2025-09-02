@@ -314,6 +314,10 @@ section {
     color: #fff;
     font-size: 2.5rem;
 }
+
+.products .box-container .box .icons a:hover {
+  background: var(--main-color);
+}
 .products .box-container .box .content .start i {
     font-size: 1.7rem;
     color: var(--main-color);
@@ -326,4 +330,41 @@ section {
     text-decoration: line-through;
     font-size: 4rem;
     font-weight: lighter;
+}
+
+
+
+
+
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+.review .box-container .box{
+    text-align: center;
+    border: var(--border);
+    padding: 3rem 2rem;
+}
+
+.review .box-container .box p {
+    font-size: 5rem;
+    line-height: 1.5;
+    color: #ccc;
+}
+.review .box-container .box .nurik {
+    height: 50rem;
+    width: 50rem;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.review .box-container .box h3{
+    padding: 1rem 0;
+    font-size: 5rem;
+    color:#fff;
+}
+.review .box-container .box .stars i {
+    font-size: 3rem;
+    color: var(--main-color);
 }
