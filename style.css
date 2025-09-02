@@ -248,7 +248,7 @@ section {
 
 .menu .box-container {
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(rem, 1fr));
+    grid-template-columns: repeat(auto-fit);
     gap: 1.5rem
 }
 .menu .box-container .box{
@@ -282,4 +282,48 @@ section {
 }
 .menu .box-container .box:hover >*{
     color: var(--black);
+}
+
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+.products .box-container .box{
+    text-align: center;
+    border: var(--border);
+    padding: 2rem;
+}
+
+.products .box-container .box .icons a {
+    height: 15rem;
+    width: 15rem;
+    line-height: 15rem;
+    font-size: 6rem;
+    border: var(--border);
+    margin: 0.3rem;
+    color: #fff;
+}
+.products .box-container .box .image {
+    padding: 2.5rem 0;
+}
+.products .box-container .box .image img{
+    height: 150rem;
+}
+.products .box-container .box .image h3{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.products .box-container .box .content .start i {
+    font-size: 1.7rem;
+    color: var(--main-color);
+}
+.products .box-container .box .content .price{
+    color: #fff;
+    font-size: 4rem;
+}
+.products .box-container .box .content .price span{
+    text-decoration: line-through;
+    font-size: 4rem;
+    font-weight: lighter;
 }
