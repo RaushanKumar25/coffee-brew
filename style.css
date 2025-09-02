@@ -345,7 +345,15 @@ section {
     text-align: center;
     border: var(--border);
     padding: 3rem 2rem;
+    font-size: 3rem;
 }
+.review .box-container .box .quote {
+    width: 100px;   /* adjust the size */
+    height: auto;  /* keeps the aspect ratio */
+    margin-bottom: 1rem; /* add some spacing below */
+    opacity: 0.8;  /* optional, makes it look softer */
+}
+
 
 .review .box-container .box p {
     font-size: 5rem;
@@ -365,6 +373,65 @@ section {
     color:#fff;
 }
 .review .box-container .box .stars i {
-    font-size: 3rem;
+    font-size:3rem;
     color: var(--main-color);
+}
+
+.review .box-container .box:hover{
+   background: #fff;
+}
+.review .box-container .box:hover >*{
+    color: var(--black);
+}
+
+.contact .row {
+  display: flex;
+  justify-content: center;   /* center content horizontally */
+  align-items: center;       /* center vertically (if needed) */
+  background: var(--black);
+  flex-wrap: wrap;
+  padding: 26rem 0;           /* spacing around the section */
+}
+
+.contact .row form {
+  width: 100%;
+  max-width: 150rem;          /* fixed width for box */
+  background: #1a1a1a;       /* dark background for contrast */
+  padding: 50rem 10rem;        /* inside spacing */
+  border-radius: 1rem;       /* rounded edges */
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6); /* glowing shadow */
+}
+
+.contact .row form h3 {
+  text-transform: uppercase;
+  font-size: 10rem;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.contact .row form .inputBox {
+  display: flex;
+  align-items: center;
+  margin: 7rem 0;
+  padding: 2rem 2rem;
+  background: var(--bg);
+  border: var(--border);
+  border-radius: 0.8rem;
+}
+
+.contact .row form .inputBox span {
+  color: #fff;
+  font-size: 5rem;
+  margin-right: 2rem;
+}
+
+.contact .row form .inputBox input {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 3.5rem;
+  color: #fff;
+  background: none;
+  border: none;
+  outline: none;
 }
